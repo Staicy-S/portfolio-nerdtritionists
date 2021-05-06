@@ -1,8 +1,36 @@
 body {
-  margin: 20px 50px auto;
+  margin: 150px 50px auto;
   text-align: center;
+  font-family: "Londrina Solid", cursive;
+  font-size: 32px;
+  background: rgb(240, 255, 236);
+}
+
+p {
+  font-size: 24px;
 }
 
 .fab {
   font-size: 34px;
+}
+
+.fa-facebook-square {
+  color: #0e1f56;
+}
+
+.heading {
+  font-size: 64px;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.btn-youtube {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 12px 24px;
+  font-size: 20px;
+  color: white;
+  background: red;
+  margin-bottom: 40px;
 }
