@@ -3,11 +3,12 @@ body {
   text-align: center;
   font-family: "Londrina Solid", cursive;
   font-size: 32px;
-  background: rgb(240, 255, 236);
+  background: rgb(243, 255, 255);
 }
 
 p {
   font-size: 24px;
+  font-weight: 300;
 }
 
 .fab {
@@ -18,8 +19,20 @@ p {
   color: #0e1f56;
 }
 
+.fa-tiktok {
+  color: black;
+}
+
+.fa-instagram {
+  color: #e1306c;
+}
+
+.fa-youtube {
+  color: red;
+}
+
 .heading {
-  font-size: 64px;
+  font-size: 80px;
 }
 
 .description {
@@ -33,4 +46,13 @@ p {
   color: white;
   background: red;
   margin-bottom: 40px;
+}
+
+.developer {
+  color: rgb(46, 46, 46);
+}
+
+.developer:hover {
+  color: red;
+  text-decoration: none;
 }
