@@ -3,7 +3,7 @@ body {
   text-align: center;
   font-family: "Londrina Solid", cursive;
   font-size: 32px;
-  background: rgb(243, 255, 255);
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
 }
 
 p {
@@ -12,7 +12,7 @@ p {
 }
 
 .fab {
-  font-size: 34px;
+  font-size: 28px;
 }
 
 .fa-facebook-square {
