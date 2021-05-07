@@ -56,3 +56,33 @@ p {
   color: red;
   text-decoration: none;
 }
+
+@media (min-width: 991px) {
+  .youtube-link {
+    display: none;
+  }
+}
+
+@media (max-width: 684px) {
+  .heading {
+    font-size: 42px;
+  }
+  .subheading {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 412px) {
+  body {
+    margin: 50px 10px auto;
+  }
+  .heading {
+    font-size: 34px;
+  }
+  .subheading {
+    font-size: 20px;
+  }
+  p {
+    font-size: 18px;
+  }
+}
