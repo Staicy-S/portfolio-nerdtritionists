@@ -43,6 +43,11 @@ li {
   font-size: 80px;
 }
 
+.video-description {
+  max-width: 560px;
+  margin: auto;
+}
+
 .description {
   font-size: 20px;
 }
