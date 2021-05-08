@@ -64,11 +64,18 @@ p {
 }
 
 @media (max-width: 684px) {
+  body {
+    margin: 100px 10px auto;
+  }
   .heading {
     font-size: 42px;
   }
   .subheading {
     font-size: 24px;
+  }
+  p,
+  .description {
+    font-size: 18px;
   }
 }
 
@@ -82,7 +89,8 @@ p {
   .subheading {
     font-size: 20px;
   }
-  p {
+  p,
+  .description {
     font-size: 18px;
   }
 }
