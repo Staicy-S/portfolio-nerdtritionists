@@ -11,6 +11,10 @@ p {
   font-weight: 300;
 }
 
+li {
+  list-style: none;
+}
+
 .fab {
   font-size: 28px;
 }
@@ -57,9 +61,23 @@ p {
   text-decoration: none;
 }
 
+.mission {
+  margin: auto;
+  margin-top: 30px;
+  max-width: 60%;
+}
+
+.creators {
+  padding: 10px 24px;
+}
+
 @media (min-width: 991px) {
   .youtube-link {
     display: none;
+  }
+  .mission {
+    margin: auto;
+    max-width: 70%;
   }
 }
 
@@ -77,6 +95,10 @@ p {
   .description {
     font-size: 18px;
   }
+  .mission {
+    margin: auto;
+    max-width: 80%;
+  }
 }
 
 @media (max-width: 412px) {
@@ -92,5 +114,9 @@ p {
   p,
   .description {
     font-size: 18px;
+  }
+  .mission {
+    margin: auto;
+    max-width: 90%;
   }
 }
