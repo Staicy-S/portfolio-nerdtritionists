@@ -11,6 +11,10 @@ p {
   font-weight: 300;
 }
 
+ul {
+  padding: 0;
+}
+
 li {
   list-style: none;
 }
