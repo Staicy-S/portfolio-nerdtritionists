@@ -80,6 +80,16 @@ li {
   padding: 10px 24px;
 }
 
+@media (max-width: 1300px) {
+  .youtube-video {
+    height: 243px;
+    width: 432px;
+  }
+  .description {
+    width: 432px;
+  }
+}
+
 @media (min-width: 991px) {
   .youtube-link {
     display: none;
