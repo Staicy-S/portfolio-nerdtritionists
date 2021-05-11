@@ -99,6 +99,7 @@ li {
     margin: auto;
     max-width: 70%;
   }
+  .video-description,
   .description {
     margin: auto;
   }
@@ -122,6 +123,18 @@ li {
   .mission {
     margin: auto;
     max-width: 80%;
+  }
+}
+
+@media (max-width: 460px) {
+  .youtube-video {
+    height: 153px;
+    width: 272px;
+  }
+  .video-description,
+  .description {
+    width: 272px;
+    margin: auto;
   }
 }
 
