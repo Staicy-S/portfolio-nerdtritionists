@@ -34,11 +34,17 @@ nav li {
 }
 
 nav a.activated {
-  color: rgb(58, 0, 0);
+  color: rgb(45, 0, 128);
 }
 
 nav a {
   color: rgb(65, 65, 65);
+}
+
+nav a:hover {
+  color: rgb(45, 0, 128);
+  transition: 150ms ease-in-out;
+  text-decoration: none;
 }
 
 .logo {
