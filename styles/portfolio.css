@@ -29,8 +29,16 @@ footer {
 
 nav li {
   display: inline;
-  padding-left: 15px;
+  padding: 0px 10px;
   font-size: 24px;
+}
+
+nav a.activated {
+  color: rgb(58, 0, 0);
+}
+
+nav a {
+  color: rgb(65, 65, 65);
 }
 
 .logo {
