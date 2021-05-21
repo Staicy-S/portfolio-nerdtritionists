@@ -116,6 +116,11 @@ nav a:hover {
   padding: 10px 24px;
 }
 
+.datenschutz {
+  font-size: 24px;
+  font-weight: 100;
+}
+
 @media (max-width: 1300px) {
   .youtube-video {
     height: 243px;
